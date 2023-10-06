@@ -42,7 +42,7 @@ def dist(p1, p2):
     Compute the distance between p1 and p2.
 
     >>> dist((1,2), (3,4))
-    8 ** 0.5
+    2.8284271247461903
     """
     return sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
     x1, y1 = p1
